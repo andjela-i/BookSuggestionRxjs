@@ -1,0 +1,44 @@
+{
+    "books": [
+        {
+            "id": "lovac_u_zitu",
+            "zanr": "Realizam",
+            "title": "Lovac u zitu",
+            "godina": 1951,
+            "autor": "Dzerom Sazlindzer",
+            "slika": "../assets/lovac_u_zitu.jpeg"
+        },
+        {
+            "id": "drakula",
+            "title": "Drakula",
+            "zanr": "Horor",
+            "godina": 1897,
+            "autor": "Brem Stoker",
+            "slika": "../assets/drakula.jpeg"
+        },
+        {
+            "id": "autostoperski_vodic_kroz_galaksiju",
+            "title": "Autostoperski vodic kroz galaksiju",
+            "zanr": "Komedija",
+            "godina": 1979,
+            "autor": "Daglas Adams",
+            "slika": "../assets/autostoperski_vodic_kroz_galaksiju.jpeg"
+        },
+        {
+            "id": "slika_dorijana_greja",
+            "zanr": "Filozofska fikcija",
+            "title": "Slika Dorijana Greja",
+            "godina": 1890,
+            "autor": "Oskar Vajld",
+            "slika": "../assets/slika_dorijana_greja.jpeg"
+        },
+        {
+            "id": "prolecne_vode",
+            "zanr": "Ljubavni",
+            "title": "Prolecne Vode",
+            "godina": 1872,
+            "autor": "Ivan Turgenjev",
+            "slika": "../assets/prolecne_vode.jpeg"
+        }
+    ]
+}

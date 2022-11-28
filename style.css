@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+    background-image: url("./assets/background.jpeg");
+    background-size: cover;
+}
+.polica{
+    align-items: flex-start;;
+    display:inline-flex;
+    align-items:center;
+}
+.okvirKnjige{
+    width: 200px;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
