@@ -20,8 +20,11 @@ import { Book } from "../src/book";
     export var btn2=document.createElement("button");
     btn2.innerHTML="Rate books";
     btn2.onclick=(()=>{getRandomBooks()});
-    document.body.appendChild(btn2);
-    document.body.appendChild(polOceni);
+    var divv=document.createElement("div");
+    divv.className="divv";
+    document.body.appendChild(divv);
+    divv.appendChild(btn2);
+    divv.appendChild(polOceni);
     
 
 
@@ -38,10 +41,18 @@ export function drawBook(knjiga:Book,kontejner:HTMLDivElement){
     div.appendChild(lblAutor);
     var myImg=new Image();
     myImg.src=knjiga.slika;
+    myImg.onclick=(()=>{vratiOpis(kontejner,knjiga)})
     myImg.width=150;
     myImg.height=200;
     div.appendChild(myImg);
+    
 
+}
+
+function vratiOpis(div:HTMLDivElement,knjiga:Book){
+    var opis=document.createElement("p");
+    opis.innerHTML=knjiga.opis;
+    div.appendChild(opis);
 }
 
 export function clearBooks(kontejner:HTMLDivElement){
@@ -57,7 +68,10 @@ export function clearInput(unos:HTMLInputElement){
 }
 
 function getRandomBooks(){
-    for(let i=0;i++;i<4)
-    var randKnjiga = knjige[Math.floor(Math.random()*knjige.length)];
+    var randKnjiga
+    for(let i=0;i<5;i++){
+    randKnjiga = knjige[Math.floor(Math.random()*knjige.length)];
+    console.log(randKnjiga)
     drawBook(randKnjiga,polOceni)
+    }
 }

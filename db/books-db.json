@@ -6,6 +6,7 @@
             "title": "Lovac u zitu",
             "godina": 1951,
             "autor": "Dzerom Sazlindzer",
+            "opis":"Selindžeru je trebalo gotovo deset godina da napiše ovo delo, koje je izrazilo seksualne konflikte i egzistencijalne strepnje mlade generacije u posleratnoj Americi, kao i bunt protiv licemerja i laži u svetu kome pripada glavni junak. U jednom intervjuu autor je rekao da u knjizi ima mnogo toga autobiografskog, odnosno da je odrastanje Holdena Kolfilda dosta slično njegovom.Čim se pojavio, 1951. godine, roman je odmah dospeo u vrh liste bestselera, a Holden Kolfild postao gotovo mitska ličnost. Vremenom, Lovac u žitu je postao sastavni deo lektire u srednjim školama širom sveta, a njegova popularnost i dalje se ne smanjuje - u proteklih pedeset godina, samo u Americi štampano je preko stotinu izdanja, u ukupnom tiražu od oko deset miliona primeraka. Na listi najboljih američkih romana uvek je među prvih deset, a po mnogim anketama najbolja je knjiga ikad objavljena u Americi. Iako su mnogi poznati reditelji želeli da otkupe pravo na ekranizaciju, Selindžer nikada nije dopustio da se po romanu snimi film.",
             "slika": "../assets/lovac_u_zitu.jpeg"
         },
         {
@@ -14,14 +15,17 @@
             "zanr": "Horor",
             "godina": 1897,
             "autor": "Brem Stoker",
+            "opis":"Mladi pravnik Džonatan Harker odlazi u Transilvaniju kako bi sa klijentom ugovorio prodaju poseda u Engleskoj. Tamo zatiče tajanstveni pejzaž pod Karpatima, okružen mnoštvom mračnih šuma i pretećih planina. A klijent je, ni manje ni više, grof Drakula. Uprkos domaćinovoj gostoljubivosti, Džonatan oseća neopisiv strah, jer uviđa da ima posla sa čovekom koji nema odraz u ogledalu i premešta se sa zida na zid, prkoseći svim zakonima prirode. Ubrzo shvata da je zarobljen u Drakulinom sablasnom zamku i da su se sve njegove najzlokobnije sumnje obistinile. Zajedno sa legendarnim lovcem na vampire Van Helsingom kreće u ukletu avanturu, kakvu nije mogao da zamisli ni u najgorem košmaru.",
             "slika": "../assets/drakula.jpeg"
+            
         },
         {
-            "id": "autostoperski_vodic_kroz_galaksiju",
-            "title": "Autostoperski vodic kroz galaksiju",
+            "id": "vodic_kroz_galaksiju",
+            "title": "Vodic kroz galaksiju",
             "zanr": "Komedija",
             "godina": 1979,
             "autor": "Daglas Adams",
+            "opis":"Autostoperski vodič kroz galaksiju ne prestaje da oduševljava svojim britkim, intergalaktičkim humorom, nezaboravnim dosetkama i jedinstvenim likovima, koji prolaze kroz najneverovatnije avanture. Kao jedan od najblistavijih primera svojevrsnog parodiranja žanra, ovaj roman postavio je nove, nezaobilazne standarde prema kojima se i dan-danas ravnaju kako čitaoci, tako i drugi pisci. ",
             "slika": "../assets/autostoperski_vodic_kroz_galaksiju.jpeg"
         },
         {
@@ -30,6 +34,7 @@
             "title": "Slika Dorijana Greja",
             "godina": 1890,
             "autor": "Oskar Vajld",
+            "opis":"London, krajem XIX veka. U jednom umetničkom studiju, zanosni i bogati Dorijan Grej pozira slikaru Bazilu. San o posedovanju portreta koji će stariti umesto njega i prihvatiti tragove vremena na njegovom anđeoskom licu postaće za Dorijana paradoksalna, zastrašujuća stvarnost. Ali neće samo belezi starosti preći na sliku ovog lepog mladića, već i sramni poroci njegove duše: duše pune oholosti, iskvarene i dekadentne, zarobljene u ponoru izopačenosti i cinizma, neobuzdane pohlepe i želje za uživanjem svake vrste. Iz unapred izgubljene borbe za večnu mladost, Dorijan će izaći poražen, kao rob apsurdne želje da poistoveti umetnost sa životom.",
             "slika": "../assets/slika_dorijana_greja.jpeg"
         },
         {
@@ -38,6 +43,7 @@
             "title": "Prolecne Vode",
             "godina": 1872,
             "autor": "Ivan Turgenjev",
+            "opis":"Prolećne vode je jednim delom autobiografski roman na račun jedne od omiljenih tema Turgenjeva : nemogućnost čoveka da voli bez gubitka sopstvene nevinosti, a da ne postane rob opsesivne strasti. Ovo je roman o sudbini, prvoj ljubavi i prolaznosti života. Dimitrije Sanjin, ruski zemljoposednik, tokom boravka u Frankfurtu upoznaje Ćemu Rozeli, italijanku koja sa majkom vodi porodičnu poslastičarnicu. Usled spleta okolnosti njih dvoje se zbližavaju i Sanjin se zaljubljuje po prvi put u životu. Zbog neodložnih poslova, Sanjin mora da otputuje iz Frankfurta na nekoliko dana i na tom putu iznenadno nailazi na neočekivane izazove.",
             "slika": "../assets/prolecne_vode.jpeg"
         }
     ]

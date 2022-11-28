@@ -4,6 +4,7 @@ export interface Book{
     title: string,
     godina: number,
     slika: string,
-    autor: string
+    autor: string,
+    opis:string
     
 }

@@ -13,7 +13,8 @@ var knjiga: Book = {
     zanr: "Horor",
     godina: 1897,
     autor: "Brem Stoker",
-    slika: "../assets/5107.jpg"
+    slika: "../assets/5107.jpg",
+    opis:""
 } ;
 
 
@@ -29,7 +30,8 @@ function bookInput(){
     ).subscribe(obj=>{
         console.log("---",obj);
         console.log(obj.zanr);
-        knjiga.id=obj.id
+        knjiga.id=obj.id;
+        knjiga.opis=obj.opis;
         knjiga.godina=obj.godina;
         knjiga.slika=obj.slika;
         knjiga.title=obj.title;
