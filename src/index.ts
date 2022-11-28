@@ -1,22 +1,12 @@
 import { fromEvent,debounceTime,map,filter,from,Observable,switchMap } from "rxjs";
-import { drawBook,clearBooks} from "../view/draw";
+import { drawBook,clearBooks, divUnos, prikazKnjiga, clearInput} from "../view/draw";
+import { environments } from "../view/enviroment";
 import { Book } from "./book"
+import { vratiSveKnjige } from "./controller"
+import { getBook } from "./controller";
 
-    var divUnos=document.createElement("div");
-    document.body.appendChild(divUnos);
-    var prikazKnjiga=document.createElement("div");
-    prikazKnjiga.className="polica";
-    var clear=document.createElement("div");
-    document.body.appendChild(clear);
-    document.body.appendChild(prikazKnjiga);
-    var btn=document.createElement("button");
-    clear.appendChild(btn);
-    btn.innerHTML="Clear books";
-    btn.onclick=(()=>{prikazKnjiga=clearBooks(prikazKnjiga)});
+export var knjige:Book[]=[];
 
-
-
-const URL = "http://localhost:3000/books/";
 var knjiga: Book = {
     id: "drakula",
     title: "Drakula",
@@ -27,7 +17,7 @@ var knjiga: Book = {
 } ;
 
 
-function movieInput(){
+function bookInput(){
     const unos = document.createElement("input");
     divUnos.appendChild(unos);
 
@@ -47,51 +37,17 @@ function movieInput(){
         drawBook(knjiga,prikazKnjiga);
         clearInput(unos)
     });
-        
-}
+};
 
-function clearInput(unos:HTMLInputElement){
-    unos.value="";
-}
-
-movieInput();
-
-/* function crtaj(knjiga:Book){
-if (knjiga!=undefined){
-    const p = document.createElement("p");
-    p.textContent= knjiga.title;
-    console.log("boze molim te",knjiga);
-    const d = document.createElement("div");
-    document.body.appendChild(d);
-    d.appendChild(p);
-    var myImg=new Image();
-    myImg.src=knjiga.slika;
-    myImg.width=200;
-    myImg.height=350;
-    d.appendChild(myImg);
-}
-} */
-
-//crtaj();
-
-function getBook(title:string):Observable<Book>{
-    const title2=title.split(" ").join("_").toLowerCase();
-    console.log(title2);
-    const promis = fetch(URL+title2)
-    .then(response =>{
-        if(!response.ok){
-            throw new Error("nema te knjige");
-        }
-        else{
-            return response.json()
-        }
-    })
-    .catch(err=>console.error(err));
-    return from(promis)
-}
+vratiSveKnjige().subscribe(lista=>{
+    console.log(lista);
+    knjige=lista;    
+    console.log(knjige);
+});
 
 
 
-//getBook("Drakula").subscribe(book=>console.log(book))
+bookInput();
+
 
 
