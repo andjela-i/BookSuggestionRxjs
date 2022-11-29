@@ -4,7 +4,7 @@ body{
     background-size: cover;
 }
 .polica{
-    height: 320px;
+    height: 300px;
     align-items: flex-start;
     display:inline-flex;
     align-items:flex-end;
@@ -20,7 +20,7 @@ body{
     justify-content: flex-end;
 }
 .pol2{
-    height: 320;
+    height: 280;
     display: inline-flex;
     align-items:flex-start;
 }
