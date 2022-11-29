@@ -1,9 +1,10 @@
-import { combineLatest, forkJoin, fromEvent, map, Observable, switchMap } from "rxjs";
+import { combineLatest, filter, forkJoin, fromEvent, map, Observable, switchMap } from "rxjs";
 import { knjige } from "../src";
 import { Book } from "../src/book";
+import { vratiRandZanr } from "../src/controller";
 
 var ocene:number[]=[0,0,0,0,0];
-var obser:Observable<string>[]=[];
+var obser:Observable<number>[]=[];
 var knjigeNas:Book[]=[]
 
     export var kontPretraga = document.createElement("div");
@@ -73,20 +74,55 @@ export function clearInput(unos:HTMLInputElement){
 }
 
 function getRandomBooks(){
+    var div=document.querySelector(".divv");
+    var pol=document.querySelector(".pol2");
+    div.removeChild(pol);
+    var polll=document.createElement("div");
+    div.appendChild(polll);
+    polll.className="pol2";
+
+    var zanrovi:string[]=[];
+    var poeni:number[]=[0,0,0,0,0];
     var randKnjiga;
     for(let i=0;i<5;i++){
     randKnjiga = knjige[Math.floor(Math.random()*knjige.length)];
-    console.log(randKnjiga)
-    obser[i]=drawBookZaOcenu(randKnjiga,polOceni)
+    zanrovi[i]=randKnjiga.zanr;
+    console.log(zanrovi[i]);
+    console.log(randKnjiga);
+    obser[i]=drawBookZaOcenu(randKnjiga,polll)
     }
     combineLatest([obser[0],obser[1],obser[2],obser[3],obser[4]]).subscribe((data)=>{
+        ocene=data;
+        var max=0;
+        var omiljeniZanr="";
         console.log(data);
-    })
+        for(let k=0;k<5;k++){
+            for(let j=0;j<5;j++)
+            {
+                if(k!=j){
+                if(zanrovi[k]===zanrovi[j]){
+                    ocene[k]=ocene[k]+ocene[j];
+                    zanrovi[j]="";
+                    console.log(ocene[k]);
+                    if(max<ocene[k]&&zanrovi[k]!="")
+                    {omiljeniZanr=zanrovi[k];}
+                }
+            }
+            }
+        }
+        console.log(omiljeniZanr);
+        vratiRandZanr(omiljeniZanr);
+        console.log(ocene);
+        console.log(zanrovi);
+
+    });
+
 }
 
-export function drawBookZaOcenu(knjiga:Book,kontejner:HTMLDivElement):Observable<string>
-{
 
+export function drawBookZaOcenu(knjiga:Book,kontejner:HTMLDivElement):Observable<number>
+{
+    
     var div=document.createElement("div");
     div.className="okvirKnjige";
     kontejner.appendChild(div);
@@ -105,8 +141,10 @@ export function drawBookZaOcenu(knjiga:Book,kontejner:HTMLDivElement):Observable
     div.appendChild(input);
     
     var obs =fromEvent(input,"input").pipe(
-        map((ev:InputEvent)=>(<HTMLInputElement>ev.target).value)
-    );
+        map((ev:InputEvent)=>parseInt((<HTMLInputElement>ev.target).value)),
+        filter((br:number)=>br<=5&&br>=0)
+    )
     return obs;
 
 }
+
