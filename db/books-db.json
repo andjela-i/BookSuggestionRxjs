@@ -30,7 +30,7 @@
         },
         {
             "id": "slika_dorijana_greja",
-            "zanr": "Filozofska fikcija",
+            "zanr": "Psiholoski",
             "title": "Slika Dorijana Greja",
             "godina": 1890,
             "autor": "Oskar Vajld",
@@ -108,6 +108,15 @@
             "autor": "Gi de Mopasan",
             "opis":"Susret glavnog junaka sa onostranim, koje se nalazi unutar njega samog, otkriva se preko horor fantastične priče o egzotičnom biću koje kao duh dolazi iz dalekog Brazila i nastanjuje se u junakovoj kući, a zapravo unutar njegove duše. Cela storija je vrsta metafore o dubinama koje postoje u čoveku i koje su intelektualci i umetnici zapadne civilizacije počeli da otkrivaju preko droge, koja jeste stizala iz udaljenih egzotičnih krajeva; njeno delovanje na širenje dometa ljudske psihe tamo je već vekovima bilo poznato.",
             "slika": "../assets/orla.jpeg"
+        },
+        {
+            "id":"vazno_je_zvati_se_ernest",
+            "zanr":"Komedija",
+            "title":"Vazno je zvati se ernest",
+            "godina":1895,
+            "autor":"Oskar Vajld",
+            "opis":"Važno je zvati se Ernest“ djelo je književnog genija, engleskog dramatičara Oscara Wilda . Komedija je premijerno prikazana u Londonu 1895. godine u St. James teatru. “Važno je zvati se Ernest“ je hirovita romantična komedija, ali istovremeno i vrlo oštroumna društvena satira koja ima pomalo bizaran zaplet. Dvojica prijatelja zapliću se u klupko komičnih situacija koje izaziva njihova težnja za sakrivanjem vlastitog identiteta. Ime “Ernest“ u engleskom prijevodu ima simbolično značenje te označava iskrenost, poštenje, ozbiljnost kao karakternu osobinu.",
+            "slika":"../assets/earnest.jpeg"
         }
     ]
     }
