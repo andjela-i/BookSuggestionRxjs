@@ -31,3 +31,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.opis{
+    width: 450px
+}

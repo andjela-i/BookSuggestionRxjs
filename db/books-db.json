@@ -45,6 +45,69 @@
             "autor": "Ivan Turgenjev",
             "opis":"Prolećne vode je jednim delom autobiografski roman na račun jedne od omiljenih tema Turgenjeva : nemogućnost čoveka da voli bez gubitka sopstvene nevinosti, a da ne postane rob opsesivne strasti. Ovo je roman o sudbini, prvoj ljubavi i prolaznosti života. Dimitrije Sanjin, ruski zemljoposednik, tokom boravka u Frankfurtu upoznaje Ćemu Rozeli, italijanku koja sa majkom vodi porodičnu poslastičarnicu. Usled spleta okolnosti njih dvoje se zbližavaju i Sanjin se zaljubljuje po prvi put u životu. Zbog neodložnih poslova, Sanjin mora da otputuje iz Frankfurta na nekoliko dana i na tom putu iznenadno nailazi na neočekivane izazove.",
             "slika": "../assets/prolecne_vode.jpeg"
+        },
+        {
+            "id": "prolecne_vode",
+            "zanr": "Ljubavni",
+            "title": "Prolecne Vode",
+            "godina": 1872,
+            "autor": "Ivan Turgenjev",
+            "opis":"Prolećne vode je jednim delom autobiografski roman na račun jedne od omiljenih tema Turgenjeva : nemogućnost čoveka da voli bez gubitka sopstvene nevinosti, a da ne postane rob opsesivne strasti. Ovo je roman o sudbini, prvoj ljubavi i prolaznosti života. Dimitrije Sanjin, ruski zemljoposednik, tokom boravka u Frankfurtu upoznaje Ćemu Rozeli, italijanku koja sa majkom vodi porodičnu poslastičarnicu. Usled spleta okolnosti njih dvoje se zbližavaju i Sanjin se zaljubljuje po prvi put u životu. Zbog neodložnih poslova, Sanjin mora da otputuje iz Frankfurta na nekoliko dana i na tom putu iznenadno nailazi na neočekivane izazove.",
+            "slika": "../assets/prolecne_vode.jpeg"
+        },
+        {
+            "id": "majstor_i_margarita",
+            "zanr": "Ljubavni",
+            "title": "Majstor i margarita",
+            "godina": 1967,
+            "autor": "Mihail Bulgakov",
+            "opis":"Da li nam đavo donosi zlo ili je zlo u nama? Višestruko isprepletane niti različitih žanrova – satire, farse, fantastike i mistike, filozofske parabole, pa i melodrame, uz neodoljive primese sarkazma i prefinjene ironije – tvore magični svet ovog remek-dela, negde na granici zbilje i mašte, sna i jave. Dolazak tajanstvenog Volanda i njegove svite – neobičnog gospodina u kariranim pantalonama i neponovljivog mačka Behemota – u Staljinovu Moskvu iniciraće čitav niz događaja sa tragikomičnim zapletom i surovim posledicama: svako će biti prinuđen da se suoči sa istinom o sebi.",
+            "slika": "../assets/the_master_and_margarita.jpeg"
+        },
+        {
+            "id": "dervis_i_smrt",
+            "zanr": "Psiholoski",
+            "title": "Dervis i smrt",
+            "godina": 1966,
+            "autor": "Mesa Selimovic",
+            "opis":"Derviš i smrt je psihološki i filozofski roman koji je podeljen na dva dela. Prvi sadrži devet, a drugi sedam poglavlja. Svako od tih poglavlja započinje ulomkom iz Kurana, ajetom, koji najavljuje temu poglavlja. Zadnje poglavlje počinje istim ajetom kojim počinje i prvo poglavlje, čime je postignuta ciklička struktura romana gde je završetak ujedno i početak.Glavni lik je pripovedač koji pripoveda u prvom licu i unutarnjim monolozima izražava svoja razmišljanja o životu. Reč je o njegovoj ispovesti koja je zapisana neposredno pre smrti. Ime glavnog lika je Ahmed Nurudin, a on je četrdesetogodišnji derviš koji je živeo u tekiji. Njegova ispovest počinje kada sazna da je njegov nevini brat uhapšen i zatvoren u tvrđavu. On želi da spasi brata i sazna zbog čega je optužen, ali mu to ne uspeva.",
+            "slika": "../assets/d_d.jpeg"
+        },
+        {
+            "id": "ispovest_maske",
+            "zanr": "Ljubavni",
+            "title": "Ispovest maske",
+            "godina": 1957,
+            "autor": "Jukio Misima",
+            "opis":"Mišima (1925-1970) spada među najznačajnije i najtalentovanije japanske pisce posle rata - bio je predložen i za dobitnika Nobelove nagrade za književnost. Izvršio je ritualno samoubistvo mačem - harakiri - 1970. godine i time ušao u legendu, o čemu je snimljen američki film Mišima Pola Šredera. Ispovest maske je do sada kod nas neprevođen roman svetski poznatog pisca i predstavlja romansiranu ispovest Mišimine kontroverzne i kompleksne ličnosti",
+            "slika": "../assets/mask.jpeg"
+        },
+        {
+            "id": "zivotinjska_farma",
+            "zanr": "Realizam",
+            "title": "Zivotinjska farma",
+            "godina": 1997,
+            "autor": "Dzordz Orvel",
+            "opis":"Povod za nastanak Životinjske farme nalazio se u Orvelovoj analizi posledica Ruske revolucije koja je prerasla u totalitarni režim i diktaturu stvorenu oko kulta ličnosti, kao i u njegovom iskustvu stečenom tokom Španskog građanskog rata. Iako je javnost često insistirala na momentu kritike sovjetske vlasti, Orvel je uvek naglašavao da se Životinjska farma iako prvenstveno satira o Ruskoj revoluciji, odnosi na svaku nasilnu revoluciju koju predvode nemarni ljudi gladni vlasti. „Hteo sam da naravoučenije bude da revolucije donose radikalno poboljšanje samo kada su mase budne i znaju kako da zbace svoje vođe čim ovi obave svoj posao. Trebalo je da prekretnica u priči bude trenutak kada svinje zadrže mleko i jabuke za sebe“, isticao je Orvel razočaran što je čitaocima možda promakao ovaj ključni momenat teksta.",
+            "slika": "../assets/animal.jpeg"
+        },
+        {
+            "id": "vrli_novi_svet",
+            "zanr": "Realizam",
+            "title": "Vrli novi svet",
+            "godina": 1945,
+            "autor": "Oldos Haksli",
+            "opis":"Ovo izuzetno važno djelo Oldousa Hakslija, jedno od najznačajnijih djela svjetske književnosti, Vrli novi svijet, predstavlja snažnu viziju neuravnotežene, no tehnološki napredne budućnosti u kojoj se ljudi genetski uzgajaju, društveno indoktriniraju i farmakološki anesteziraju da bi se što pasivnije odnosili prema autoritarnom poretku – sve po cijenu njihove slobode, ljudskosti, pa čak i duše.Haksli je čovjek neprevaziđenog talenta: podjednako umjetnik, duhovni tragalac, i jedan od najpažljivijih posmatrača ljudske prirode i civilizacije u istoriji književnosti. Vrli novi svijet, njegovo remek-djelo, istovremeno je opčinilo i uplašilo milione čitalaca i svoju je urgentu važnost zadržalo sve do današnjeg dana.",
+            "slika": "../assets/brave.jpeg"
+        },
+        {
+            "id": "orla",
+            "zanr": "Horor",
+            "title": "Orla",
+            "godina": 1872,
+            "autor": "Gi de Mopasan",
+            "opis":"Susret glavnog junaka sa onostranim, koje se nalazi unutar njega samog, otkriva se preko horor fantastične priče o egzotičnom biću koje kao duh dolazi iz dalekog Brazila i nastanjuje se u junakovoj kući, a zapravo unutar njegove duše. Cela storija je vrsta metafore o dubinama koje postoje u čoveku i koje su intelektualci i umetnici zapadne civilizacije počeli da otkrivaju preko droge, koja jeste stizala iz udaljenih egzotičnih krajeva; njeno delovanje na širenje dometa ljudske psihe tamo je već vekovima bilo poznato.",
+            "slika": "../assets/orla.jpeg"
         }
     ]
-}
+    }

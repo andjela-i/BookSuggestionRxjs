@@ -57,6 +57,7 @@ export function drawBook(knjiga:Book,kontejner:HTMLDivElement){
 
 function vratiOpis(div:HTMLDivElement,knjiga:Book){
     var opis=document.createElement("p");
+    opis.className="opis";
     opis.innerHTML=knjiga.opis;
     div.appendChild(opis);
 }
